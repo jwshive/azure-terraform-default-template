@@ -19,4 +19,5 @@ locals {
   }
 
   tf-resource-group-name = "${var.project-name}-${var.application-name}tf-${var.environment}-v${var.environment-version}-rg"
+  resource-name-prefix    = "${var.project-name}-${var.application-name}-${var.environment}"
 }
