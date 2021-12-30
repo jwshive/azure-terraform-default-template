@@ -7,3 +7,5 @@ Steps to Run:
     terraform init
     terraform plan -var application-name="appname" -var environment="env" -var product-owner="name" -var project-name="project"
     terraform apply -auto-approve -var application-name="appname" -var environment="env" -var product-owner="name" -var project-name="project"
+
+Once the backend state resource group has been created, delete the terraform-state-rg folder.
